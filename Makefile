@@ -2,10 +2,10 @@ all: html pdf docx rtf
 
 pdf: resume.pdf
 resume.pdf: resume.md
-	pandoc --standalone --template style_chmduquesne.tex \
+	pandoc --standalone --template withcolors.tex \
 	--from markdown --to context \
 	-V papersize=A4 \
-	-o resume.tex resume.md; \
+	-o resume.tex resume.md; \	
 	context resume.tex
 
 html: resume.html

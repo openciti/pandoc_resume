@@ -1,7 +1,7 @@
 The Markdown Resume
 ===================
 
-Instructions:
+Original Instructions:
 
     git clone https://github.com/mszep/pandoc_resume
     cd pandoc_resume
@@ -10,5 +10,13 @@ Instructions:
 
 Requirements:
 
- * ConTeXt
- * pandoc
+  sudo apt install pandoc context zenity yad texlive-xetex python-pip qpdfview 
+  sudo pip install pypandoc python-zenity
+
+TODO:
+
+  remove color pickers and Dockerize 
+  
+  color pickers will be done by the Heroku/Django app
+  
+  
