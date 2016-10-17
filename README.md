@@ -11,7 +11,7 @@ Original Instructions:
 Requirements:
 
 ```
-  sudo apt install pandoc context zenity yad texlive-xetex python-pip qpdfview 
+  sudo apt install pandoc zenity yad texlive-xetex python-pip qpdfview 
 
   sudo pip install pypandoc python-zenity
 ```
